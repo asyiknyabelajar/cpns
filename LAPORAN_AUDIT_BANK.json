@@ -1,0 +1,91 @@
+{
+  "TWK": {
+    "total": 500,
+    "unique_ids": 500,
+    "unique_stems": 500,
+    "concept_families": 235,
+    "topics": {
+      "Pilar negara": 65,
+      "Sejarah nasional": 66,
+      "UUD 1945": 97,
+      "Bahasa negara": 107,
+      "Integritas": 36,
+      "Bela negara": 29,
+      "Nasionalisme": 20,
+      "Bhinneka Tunggal Ika": 5,
+      "NKRI": 5,
+      "Konstitusi": 5,
+      "Anti-korupsi": 5,
+      "Keadilan sosial": 5,
+      "Toleransi": 5,
+      "Pelayanan konstitusional": 5,
+      "Persatuan": 15,
+      "Partisipasi warga": 5,
+      "Pancasila": 25
+    },
+    "figural_png": 0
+  },
+  "TIU": {
+    "total": 500,
+    "unique_ids": 500,
+    "unique_stems": 500,
+    "concept_families": 485,
+    "topics": {
+      "Numerik - Persentase": 20,
+      "Numerik - Deret aritmetika": 20,
+      "Numerik - Deret geometri": 20,
+      "Numerik - Rata-rata": 40,
+      "Numerik - Pekerjaan bersama": 20,
+      "Numerik - Jarak dan kecepatan": 20,
+      "Numerik - Diskon": 20,
+      "Numerik - Perbandingan": 20,
+      "Numerik - Aljabar": 20,
+      "Verbal - Analogi": 45,
+      "Verbal - Silogisme": 45,
+      "Penalaran spasial - Arah": 20,
+      "Numerik - Persentase balik": 20,
+      "Numerik - Rasio": 20,
+      "Numerik - Laju kerja": 20,
+      "Numerik - Geometri": 20,
+      "Numerik - Deret": 20,
+      "Numerik - Peluang": 20,
+      "Numerik - Sisa bagi": 20,
+      "Figural - Serial gambar": 50
+    },
+    "figural_png": 50
+  },
+  "TKP": {
+    "total": 500,
+    "unique_ids": 500,
+    "unique_stems": 500,
+    "concept_families": 75,
+    "topics": {
+      "Pelayanan publik": 100,
+      "Jejaring kerja": 80,
+      "Sosial budaya": 80,
+      "Teknologi informasi": 80,
+      "Profesionalisme": 80,
+      "Anti radikalisme": 80
+    },
+    "figural_png": 0
+  },
+  "SKB": {
+    "total": 500,
+    "unique_ids": 500,
+    "unique_stems": 500,
+    "concept_families": 50,
+    "topics": {
+      "Pelayanan publik": 50,
+      "Administrasi publik": 50,
+      "Kearsipan": 50,
+      "Data dan informasi": 50,
+      "Manajemen risiko": 50,
+      "Etika dan integritas": 50,
+      "Kepegawaian ASN": 50,
+      "Kebijakan publik": 50,
+      "Keuangan dan pengadaan": 50,
+      "Komunikasi kerja": 50
+    },
+    "figural_png": 0
+  }
+}

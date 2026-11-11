@@ -1,0 +1,37 @@
+CATATAN MUTU DAN VALIDASI
+========================
+
+STATUS DATA
+- Tersedia 500 entri TWK, 500 TIU, 500 TKP, 500 SKB. Total 2.000.
+- 750 entri SKD sebelumnya digunakan ulang sebagai fondasi; 750 entri SKD baru melengkapinya.
+- SKB 500 entri terdiri atas variasi 50 keluarga konsep yang berulang dalam konteks berbeda.
+- TKP memuat 75 keluarga kasus; variasi konteks digunakan untuk memperluas latihan.
+- TWK dan TIU memuat soal konsep, fakta, hitungan, analogi, dan/atau diagram figural. Sejumlah topik mengandung variasi nilai dan kalimat yang sejenis.
+- Soal bukan salinan naskah CAT BKN yang pernah keluar pada 2021–2026. Frekuensi kemunculan tiap butir dalam ujian asli tidak dapat diverifikasi.
+- Rentang 2021–2026 mencakup enam tahun kalender; digunakan sebagai rentang rujukan tren kompetensi, bukan klaim sumber soal.
+- Skor dan bobot TKP merupakan pengaturan simulasi; bobot 1–5 per opsi belum dinilai pakar psikometri.
+- SKB adalah pengayaan lintas jabatan, khususnya administrasi pemerintahan; bukan kisi-kisi resmi SKB jabatan tertentu.
+
+PENGUJIAN TEKNIS (dengan bank JSON lokal ditanam ke browser uji)
+- Keempat halaman latihan berhasil dimulai, 25 soal default masing-masing, jawaban dan navigasi berfungsi.
+- SKD menampilkan 110 soal: TWK 30, TIU 35, TKP 45.
+- Simulasi seluruh jawaban terbaik menghasilkan 550/550 dan status memenuhi ambang batas acuan 2024.
+- 110 pembahasan muncul setelah penyelesaian.
+- Tampilan mobile lebar 390 px tidak mengalami luapan horizontal.
+- Pemeriksaan JavaScript tidak menemukan kesalahan sintaks.
+- 50 diagram PNG untuk TIU figural dibuat dan direferensikan melalui folder assets/figural.
+- Browser uji menggunakan mock pemuatan JSON karena sandbox memblokir navigasi HTTP/file; pengujian deployment GitHub Pages nyata tetap diperlukan.
+
+PENINJAUAN LANJUTAN WAJIB
+1. Verifikasi materi, kunci, dan pembahasan oleh pakar TWK/TIU/TKP/SKB.
+2. Uji ketepatan pilihan distraktor, kejelasan bahasa, tingkat kesulitan, dan kesamaan variasi soal.
+3. Validasi empiris bobot TKP dan ketepatan klasifikasi kompetensi.
+4. Revisi SKB berdasarkan jabatan/formasi yang benar-benar dituju.
+5. Uji langsung GitHub Pages, iframe Blogger, dan 3–5 perangkat termasuk fitur unduh CSV.
+6. Selaraskan peraturan SKD ketika ada ketentuan resmi penerimaan CPNS berikutnya.
+
+RUJUKAN
+KepmenPANRB No. 321 Tahun 2024:
+https://jdih.menpan.go.id/dokumen-hukum/keputusan-menteri-pendayagunaan-aparatur-negara-dan-reformasi-birokrasi-nomor-321-tahun-2024-tentang-1851
+PermenPANRB No. 6 Tahun 2024:
+https://peraturan.bpk.go.id/Details/294203/permen-panrb-no-6-tahun-2024
